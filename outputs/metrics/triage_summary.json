@@ -1,0 +1,31 @@
+{
+  "routing_confidence_threshold": 0.8300000000000001,
+  "routing_threshold_selection": "lowest threshold clearing 95% val accuracy floor (business assumption; see routing_threshold_sweep.csv for alternatives)",
+  "routing_cost_winners_by_misroute_review_ratio": {
+    "2:1": 0.3,
+    "5:1": 0.7,
+    "10:1": 0.8300000000000001
+  },
+  "routing_applied_threshold_implied_cost_ratio_range": [
+    6.8999999999999915,
+    11.099999999999977
+  ],
+  "priority_escalation_threshold": 0.3,
+  "priority_threshold_selection": "minimizes expected cost per 1,000 complaints, assuming a missed escalation costs 10x a false alarm (business assumption; see priority_threshold_sweep.csv for alternatives)",
+  "miss_to_false_alarm_cost_ratio": 10.0,
+  "val_auto_route_accuracy": 0.9501915708812261,
+  "val_auto_route_coverage": 0.48333333333333334,
+  "test_docs": 8100,
+  "test_auto_route_share": 0.4874074074074074,
+  "test_auto_route_accuracy": 0.9551671732522796,
+  "test_manual_review_share": 0.5125925925925926,
+  "test_manual_review_accuracy": 0.6702793834296724,
+  "test_high_priority_share": 0.1774074074074074,
+  "test_high_priority_recall_of_true_escalations": 0.6711538461538461,
+  "test_high_priority_precision": 0.2428670842032011,
+  "bert_escalation_threshold": 0.7,
+  "bert_vs_logreg_cost_per_1000": {
+    "logistic_regression": 345.43209876543204,
+    "bert_full": 313.4567901234568
+  }
+}

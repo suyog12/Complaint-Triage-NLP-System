@@ -1,0 +1,24 @@
+{
+  "chosen_threshold": 0.65,
+  "test_accuracy": 0.8280246913580247,
+  "test_macro_f1": 0.8280382884699858,
+  "test_bert_share": 0.32123456790123456,
+  "test_logreg_share": 0.6787654320987655,
+  "test_blended_docs_per_second": 199.5891457691387,
+  "bert_test_accuracy": 0.8204938271604938,
+  "bert_test_macro_f1": 0.8203484236419132,
+  "significance_vs_bert": {
+    "comparison": "hybrid vs bert",
+    "n_discordant": 233,
+    "hybrid_right_bert_wrong": 147,
+    "bert_right_hybrid_wrong": 86,
+    "mcnemar_exact_p_value": 7.76470430265233e-05,
+    "bootstrap_n_resamples": 2000,
+    "bootstrap_macro_f1_diff_mean": 0.0077146923172781295,
+    "bootstrap_macro_f1_diff_ci95": [
+      0.004021624813738464,
+      0.011309781988443802
+    ],
+    "bootstrap_two_sided_p_value": 0.0
+  }
+}

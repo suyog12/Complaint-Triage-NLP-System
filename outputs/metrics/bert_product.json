@@ -1,0 +1,84 @@
+{
+  "bert": {
+    "accuracy": 0.8204938271604938,
+    "macro_f1": 0.8203484236419132,
+    "train_seconds": 1091.57,
+    "end_to_end_seconds": 121.507,
+    "predict_seconds": 5.397,
+    "inference_n_docs": 8100,
+    "train_n_docs": 37800,
+    "report": {
+      "Bank account": {
+        "precision": 0.8141025641025641,
+        "recall": 0.7055555555555556,
+        "f1-score": 0.7559523809523809,
+        "support": 900.0
+      },
+      "Credit card": {
+        "precision": 0.8265682656826568,
+        "recall": 0.7466666666666667,
+        "f1-score": 0.7845884413309983,
+        "support": 900.0
+      },
+      "Credit reporting": {
+        "precision": 0.7920685959271169,
+        "recall": 0.8211111111111111,
+        "f1-score": 0.8063284233496999,
+        "support": 900.0
+      },
+      "Debt collection": {
+        "precision": 0.7379454926624738,
+        "recall": 0.7822222222222223,
+        "f1-score": 0.7594390507011867,
+        "support": 900.0
+      },
+      "Money transfer / virtual currency": {
+        "precision": 0.7206012378426172,
+        "recall": 0.9055555555555556,
+        "f1-score": 0.8025603151157066,
+        "support": 900.0
+      },
+      "Mortgage": {
+        "precision": 0.9432071269487751,
+        "recall": 0.9411111111111111,
+        "f1-score": 0.9421579532814238,
+        "support": 900.0
+      },
+      "Payday / title / personal loan": {
+        "precision": 0.7737556561085973,
+        "recall": 0.76,
+        "f1-score": 0.7668161434977578,
+        "support": 900.0
+      },
+      "Student loan": {
+        "precision": 0.9332591768631813,
+        "recall": 0.9322222222222222,
+        "f1-score": 0.9327404113396331,
+        "support": 900.0
+      },
+      "Vehicle or consumer loan": {
+        "precision": 0.879950495049505,
+        "recall": 0.79,
+        "f1-score": 0.832552693208431,
+        "support": 900.0
+      },
+      "accuracy": 0.8204938271604938,
+      "macro avg": {
+        "precision": 0.8246065123541653,
+        "recall": 0.8204938271604939,
+        "f1-score": 0.8203484236419132,
+        "support": 8100.0
+      },
+      "weighted avg": {
+        "precision": 0.8246065123541653,
+        "recall": 0.8204938271604938,
+        "f1-score": 0.8203484236419132,
+        "support": 8100.0
+      }
+    },
+    "mode": "full",
+    "model_name": "bert-base-uncased",
+    "epochs": 2,
+    "max_length": 256
+  }
+}

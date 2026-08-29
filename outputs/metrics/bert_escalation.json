@@ -1,0 +1,45 @@
+{
+  "bert": {
+    "accuracy": 0.7571604938271604,
+    "macro_f1": 0.581588178111127,
+    "train_seconds": 1082.64,
+    "end_to_end_seconds": 121.272,
+    "predict_seconds": 5.17,
+    "inference_n_docs": 8100,
+    "train_n_docs": 37800,
+    "report": {
+      "0": {
+        "precision": 0.9866481706259754,
+        "recall": 0.7506596306068601,
+        "f1-score": 0.8526260582902525,
+        "support": 7580.0
+      },
+      "1": {
+        "precision": 0.18988426918131163,
+        "recall": 0.8519230769230769,
+        "f1-score": 0.3105502979320014,
+        "support": 520.0
+      },
+      "accuracy": 0.7571604938271604,
+      "macro avg": {
+        "precision": 0.5882662199036435,
+        "recall": 0.8012913537649685,
+        "f1-score": 0.581588178111127,
+        "support": 8100.0
+      },
+      "weighted avg": {
+        "precision": 0.9354978954715032,
+        "recall": 0.7571604938271604,
+        "f1-score": 0.8178261329339203,
+        "support": 8100.0
+      }
+    },
+    "mode": "full",
+    "model_name": "bert-base-uncased",
+    "epochs": 2,
+    "max_length": 256,
+    "pr_auc": 0.3267000699666308,
+    "roc_auc": 0.8754966257357418,
+    "positive_f1": 0.3105502979320014
+  }
+}
