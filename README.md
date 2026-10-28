@@ -78,7 +78,7 @@ sweeps, are in `outputs/metrics/` and `outputs/figures/` (see below).
 ## Repository layout and what each file is for
 
 ```
-Final Project/
+Complaint-Triage-NLP-System/
 ├── run.py                          # single entrypoint - runs the entire pipeline
 ├── requirements.txt                # exact package versions for the conda environment used
 ├── README.md                       # this file

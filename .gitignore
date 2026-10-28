@@ -7,8 +7,3 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .claude/
-
-# Course submission materials, not part of the published project
-Complaint Triage Report.docx
-References_and_AI_Usage.docx
-finalproject_2026.pdf
